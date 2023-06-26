@@ -1,10 +1,10 @@
 # KLT-tracking
 
-Project Title: Real-Time Object Tracking
-Description:
+## Project Title: Real-Time Object Tracking
+#Description:
 This project provides an implementation of real-time object tracking in MATLAB. The code is designed to track a moving object in a video, whether that video comes from a live webcam feed or a pre-recorded video file. It uses the imfindcircles function for initial object detection, and the vision.PointTracker function, based on the Kanade-Lucas-Tomasi (KLT) algorithm, for the actual tracking of the object.
 
-Features:
+#Features:
 Support for both webcam feeds and pre-recorded video files.
 Allows for the tracking of a single object identified initially within a user-specified rectangle.
 Utilizes imfindcircles for initial object detection within a specified ROI.
