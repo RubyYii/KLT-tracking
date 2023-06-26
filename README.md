@@ -12,6 +12,7 @@ Employs vision.PointTracker for consistent tracking of the detected object acros
 The capability of re-detecting features and reinitializing the tracker with the help of detectMinEigenFeatures function, in case the object tracking fails in a certain frame.
 Real-time plotting of either the object's distance to a specified point or the object's location coordinates over time.
 The final plot of the tracked object's path over the duration of the video.
+
 How to Use:
 Set the variable useWebcam to either true or false to select the source of the video feed.
 If useWebcam is set to false, provide the path to the video file in the videoFile variable.
@@ -20,9 +21,11 @@ Run the script. The first frame of the video will be displayed.
 Draw a rectangle around the object you want to track in the displayed frame.
 The script will then automatically track the object in real time and display the video frames along with a plot of the tracked metric (either distance to a fixed point or location coordinates).
 After all frames are processed, the script will also provide a plot of the object's trajectory.
+
 Dependencies:
 MATLAB R2019b or later.
 Computer Vision System Toolbox in MATLAB.
+
 Notes:
 This script was developed for educational purposes and is not intended for use in high-performance or real-time systems.
 
